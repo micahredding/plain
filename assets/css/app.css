@@ -269,7 +269,7 @@ header, footer, #hero, #main {
       clear: both; }
 
 header {
-  background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/01EverGreen.jpg/1280px-01EverGreen.jpg') center center;
+  background: url('../images/evergreen.jpg') center center;
   background-size: cover;
   color: white;
   font-size: 4em;
