@@ -2,6 +2,11 @@
 @import 'neat/neat';
 @import 'bitters/bitters';
 
+
+$brown: #4d433e;
+$dark-green: #323627;
+$light-green: #424627;
+
 p:first-child {
 	margin-top:0;
 }
@@ -20,16 +25,20 @@ header, footer, #hero, #main {
 	}
 }
 header {
-	background: url('http://wiredwritersguild.com/wp-content/uploads/2013/11/background.jpg') center center;
+	background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/01EverGreen.jpg/1280px-01EverGreen.jpg') center center;
 	background-size: cover;
 	color: #ffffff;
 	font-size:4em;
 	line-height: 1em;
 	text-align: center;
 	padding: 1.5em;
+
+	/* Adjust for image */
+	padding-top:3em;
+	min-height:7em;
 }
 #hero {
-	background: rgba(77,67,62,1);
+	background: $dark-green;
 	color: #ffffff;
 	text-align: center;
 	p {
@@ -38,5 +47,6 @@ header {
 	}
 }
 footer {
-
+	background: darken($dark-green, 5%);
+	color: #ffffff;
 }

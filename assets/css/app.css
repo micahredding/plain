@@ -269,19 +269,25 @@ header, footer, #hero, #main {
       clear: both; }
 
 header {
-  background: url('http://wiredwritersguild.com/wp-content/uploads/2013/11/background.jpg') center center;
+  background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/01EverGreen.jpg/1280px-01EverGreen.jpg') center center;
   background-size: cover;
   color: white;
   font-size: 4em;
   line-height: 1em;
   text-align: center;
-  padding: 1.5em; }
+  padding: 1.5em;
+  /* Adjust for image */
+  padding-top: 3em;
+  min-height: 7em; }
 
 #hero {
-  background: #4d433e;
+  background: #323627;
   color: white;
   text-align: center; }
   #hero p {
     font-size: 2em;
     line-height: 1em; }
 
+footer {
+  background: #24271c;
+  color: white; }
